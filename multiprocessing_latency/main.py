@@ -3,7 +3,7 @@ import time
 
 def task(input_data):
     # Simulate some work
-    return input_data * 2
+    return input_data << 2
 
 if __name__ == '__main__':
     input_list = [1, 2, 3, 4, 5]
